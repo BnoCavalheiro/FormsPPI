@@ -79,6 +79,8 @@ app.use('/relatorio',(req,resp)=>{
     
 })
 
+app.use(express.static(path.join(process.cwd(),'/Publico')));
+
 app.listen(porta, host, () => {
     console.log(`Servidor executando na porta http://${host}; ${porta}`);
 })
