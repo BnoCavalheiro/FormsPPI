@@ -80,7 +80,7 @@ app.use('/relatorio',(req,resp)=>{
     
 })
 
-app.use(express.static(path.join(process.cwd(),'/Publico')));
+app.use(express.static(path.join(process.cwd(),'/publico')));
 
 app.listen(porta, host, () => {
     console.log(`Servidor executando na porta http://${host}; ${porta}`);
