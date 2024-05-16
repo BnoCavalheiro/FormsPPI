@@ -1,4 +1,5 @@
 import express from 'express';
+import path from 'path';
 
 const porta = 5000;
 const host = '0.0.0.0';
